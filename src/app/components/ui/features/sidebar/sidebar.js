@@ -26,7 +26,7 @@ export default function Sidebar() {
     };
 
     handleResize(); // Set initial state on page load
-    window.addEventListener("resize", handleResize); // Update on window resize
+    window.addEventListener("resize", handleResize);
 
     return () => window.removeEventListener("resize", handleResize);
   }, []);
@@ -50,23 +50,22 @@ export default function Sidebar() {
 
       {/* Sidebar */}
       <aside
-  className={`fixed left-0 top-0 h-full w-64 bg-[#11455D] text-white p-4 pt-20 z-40
-    ${isOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0"}
-    transition-transform duration-300 ease-in-out md:transition-none
-  `}
->
-
+        className={`fixed left-0 top-0 h-full w-64 bg-[#11455D] text-white p-4 pt-20 z-40
+          ${isOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0"}
+          transition-transform duration-300 ease-in-out md:transition-none
+        `}
+      >
         <ul className="space-y-2 font-dmsans">
           {menuItems.map((item) => (
             <li
               key={item}
-              className="p-2 rounded cursor-pointer font-light text-[#91B2C1] hover:bg-white hover:text-[#334960] transition"
+              className="p-2 rounded cursor-pointer font-light text-[#91B2C1] hover:bg-white hover:text-[#334960] active:bg-white active:text-[#334960] transition"
             >
               {item}
             </li>
           ))}
 
-          <li className="p-2 rounded cursor-pointer font-light text-[#91B2C1] hover:bg-white hover:text-[#334960] transition flex items-center justify-between">
+          <li className="p-2 rounded cursor-pointer font-light text-[#91B2C1] hover:bg-white hover:text-[#334960] active:bg-white active:text-[#334960] transition flex items-center justify-between">
             <span>Pending Questions</span>
             <span className="ml-2 bg-white rounded-full px-2 py-1 text-xs text-[#11455D]">
               3
@@ -75,7 +74,7 @@ export default function Sidebar() {
         </ul>
       </aside>
 
-      {/* Overlay for mobile */}
+      {/* Overlay for Mobile */}
       {isOpen && (
         <div
           className="fixed inset-0 bg-black/30 backdrop-blur-sm z-30 md:hidden"

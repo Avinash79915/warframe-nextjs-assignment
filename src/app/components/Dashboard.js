@@ -11,9 +11,9 @@ export default function Dashboard() {
     
     <div className="space-y-6 font-inter">
      
-      {/* Responsive grid layout with left-side wider box */}
+   
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_3fr] gap-6">
-        {/* Left - Account Progress */}
+       
         <div className="bg-white p-6 rounded-lg shadow">
           <h2 className="text-sm font-semibold mb-4 text-center text-black">
             Account Progress
@@ -79,7 +79,7 @@ export default function Dashboard() {
           </div>
         </div>
 
-        {/* Right - Grid of 4 Boxes */}
+       
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
           <FranchiseStats />
           <Insights />
@@ -88,14 +88,14 @@ export default function Dashboard() {
         </div>
       </div>
 
-      {/* Responsive Grid Layout with Square and Rectangular Boxes */}
+      
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {/* Left - Square Box (PendingQuestions) */}
+      
         <div className="w-full h-auto md:h-[400px]">
           <PendingQuestions />
         </div>
 
-        {/* Right - Rectangular Box (ChatWelcome) */}
+        
         <div className="w-full h-auto md:h-[400px]">
           <ChatWelcome />
         </div>

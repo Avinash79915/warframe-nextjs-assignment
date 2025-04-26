@@ -1,4 +1,4 @@
-import { FaArrowTrendUp } from "react-icons/fa6"; // Import the upward trend icon
+import { FaArrowTrendUp } from "react-icons/fa6"; 
 
 export default function FranchiseStats() {
   return (
@@ -7,15 +7,15 @@ export default function FranchiseStats() {
         Total Franchises Onboard
       </h2>
       <div className="flex items-center justify-between mb-4">
-        {/* Left Side: Number and Percentage */}
+        
         <div className="flex items-center space-x-4">
           <span className="text-2xl font-bold text-black">14</span>
           <div className="flex items-center space-x-1 border-2 border-green-600 text-green-600 rounded-full px-2 py-0.5 text-sm font-bold">
-            <FaArrowTrendUp className="w-4 h-4" /> {/* Replaced SVG with React icon */}
+            <FaArrowTrendUp className="w-4 h-4" /> 
             <span>7.4%</span>
           </div>
         </div>
-        {/* Right Side: Avatars Image */}
+      
         <img
           src="/images/Avatars.webp"
           alt="Avatars"
@@ -23,17 +23,17 @@ export default function FranchiseStats() {
         />
       </div>
       <div className="w-full bg-white rounded-xl h-2.5 flex overflow-hidden px-0.5 space-x-2">
-        {/* Blue segment */}
+        
         <div
           className="bg-[#1F7EAA] h-full rounded-sm"
           style={{ width: "30%" }}
         ></div>
-        {/* Red segment */}
+       
         <div
           className="bg-[#2FBDFF] h-full rounded-sm"
           style={{ width: "30%" }}
         ></div>
-        {/* Green segment */}
+       
         <div
           className="bg-[#97DEFF] h-full rounded-sm"
           style={{ width: "40%" }}

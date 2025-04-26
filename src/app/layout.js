@@ -15,8 +15,8 @@ export const metadata = {
   title: "Financial and target",
   description: "Your app description here",
   icons: {
-    icon: "/images/Logo.png", // Replace with your custom icon path
-    shortcut: "/my-app-icon.ico", // Optional: for older browsers
+    icon: "/images/Logo.png", 
+    shortcut: "/my-app-icon.ico", 
   },
 };
 export default function RootLayout({ children }) {

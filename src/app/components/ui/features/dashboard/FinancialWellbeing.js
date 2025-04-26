@@ -1,4 +1,4 @@
-import { FaArrowTrendUp } from "react-icons/fa6"; // Import the upward trend icon
+import { FaArrowTrendUp } from "react-icons/fa6"; 
 
 export default function FinancialWellbeing() {
   return (
@@ -14,7 +14,7 @@ export default function FinancialWellbeing() {
           <span className="text-[#455468] text-sm">Total Franchises</span>
         </div>
         <div className="flex items-center space-x-1 border-2 border-green-600 text-green-600 rounded-full px-2 py-0.5 text-sm font-bold">
-          <FaArrowTrendUp className="w-4 h-4" /> {/* Replaced SVG with React icon */}
+          <FaArrowTrendUp className="w-4 h-4" />
           <span>2.1%</span>
         </div>
       </div>

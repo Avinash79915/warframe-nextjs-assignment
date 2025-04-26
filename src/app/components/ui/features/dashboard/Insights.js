@@ -16,9 +16,9 @@ export default function Insights() {
           <img
             src="/images/image14.svg" 
             alt="Top Performer Icon"
-            className="w-12 h-12 mb-2" // Image size and margin bottom
+            className="w-12 h-12 mb-2" 
           />
-          {/* Top Performer Button */}
+          
           <button className="flex items-center space-x-2 border border-[#BAE9FF] text-blue-600 px-3 py-1 rounded-full text-xs font-medium">
             <span className="text-[#279DD4]">Top Performer</span>
           </button>
