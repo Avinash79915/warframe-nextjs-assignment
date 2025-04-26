@@ -5,14 +5,14 @@ export default function PendingQuestions() {
       username: "@phoenix",
       question: "What are the requirements for opening a new store?",
       time: "5 min ago",
-      avatar: "/images/Avatar1.png",
+      avatar: "/images/Avatar (1).svg",
     },
     {
       name: "Koray Okumus",
       username: "@koray",
       question: "How do I manage inventory effectively?",
       time: "4 hr ago",
-      avatar: "/images/Avatar2.png",
+      avatar: "/images/Avatar.svg",
     },
   ];
 

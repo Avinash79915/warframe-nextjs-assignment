@@ -28,7 +28,7 @@ export default function Navbar() {
             </svg>
           </button>
           <img
-            src="/images/Avatar1.png" 
+            src="/images/Avatar.svg" 
             alt="User Avatar"
             width={40}
             height={40}

@@ -1,8 +1,8 @@
 export default function ProspectLeads() {
   const leads = [
-    { name: "Wade Warren", stage: "Initial Inquiry", image: "./images/Avatar1.png" },
-    { name: "Ava Wright", stage: "Initial Inquiry", image: "/images/Avatar2.png" },
-    { name: "Cody Fisher", stage: "Initial Inquiry", image: "/images/Avatar3.png" },
+    { name: "Wade Warren", stage: "Initial Inquiry", image: "./images/Avatar.svg" },
+    { name: "Ava Wright", stage: "Initial Inquiry", image: "/images/Avatar (1).svg" },
+    { name: "Cody Fisher", stage: "Initial Inquiry", image: "/images/Avatar (2).svg" },
   ];
 
   return (

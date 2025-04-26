@@ -14,7 +14,7 @@ export default function Insights() {
         <div className="flex flex-col items-center justify-center">
         
           <img
-            src="/images/insight_logo.png" 
+            src="/images/image14.svg" 
             alt="Top Performer Icon"
             className="w-12 h-12 mb-2" // Image size and margin bottom
           />

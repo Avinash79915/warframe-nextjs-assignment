@@ -17,7 +17,7 @@ export default function FranchiseStats() {
         </div>
         {/* Right Side: Avatars Image */}
         <img
-          src="/images/Avatars.png"
+          src="/images/Avatars.svg"
           alt="Avatars"
           className="w-40 h-10 object-contain"
         />

@@ -7,7 +7,7 @@ export default function ChatWelcome() {
   return (
     <div className=" bg-white p-4  shadow font-inter flex flex-col items-center justify-center text-center pb-16 rounded-lg ">
       <img
-        src="/images/logo.png"
+        src="/images/logo.svg"
         alt="Infinity Icon"
         className="w-15 h-9 mb-4 text-blue-500"
       />
